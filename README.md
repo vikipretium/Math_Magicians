@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Title
+# Math Magician
 
-> Project description
+> A single page app build using react
 
 ![screenshot]()
 
@@ -10,9 +10,7 @@ Additional description about the project and its features.
 
 ## Tech used
 
-- HTML
-- CSS
-- Javascript
+- React
 - Git
 - npm
 - webpack
@@ -22,7 +20,7 @@ Additional description about the project and its features.
 #### Cloning the project
 
 ```
-git clone your_project_url
+git clone git@github.com:vikipretium/Math_Magicians.git
 ```
 
 ## Usage
@@ -31,21 +29,7 @@ To build the project run:
 
 ```
 npm install
-npm run build
-```
-
-## Development
-
-In development environment use the following command:
-
-```
 npm start
-```
-
-## Testing
-
-```
-npm watch
 ```
 
 ## Author
