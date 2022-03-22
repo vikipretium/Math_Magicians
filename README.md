@@ -4,7 +4,7 @@
 
 > A single page app build using react
 
-![screenshot](./src/screenshot.png)
+![screenshot](./src/test.gif)
 
 Additional description about the project and its features.
 
