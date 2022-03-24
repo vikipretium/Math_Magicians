@@ -26,7 +26,7 @@ git clone git@github.com:vikipretium/Math_Magicians.git
 
 ## Usage
 
-To build the project run:
+To build the project and run:
 
 ```
 npm install
