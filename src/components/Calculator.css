@@ -1,0 +1,39 @@
+.calc-structure {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 35%;
+  }
+  
+  .screen {
+    background-color: #858693;
+    color: white;
+    padding: 4% 3%;
+    text-align: right;
+  }
+  
+  button {
+    background: none;
+    padding: 15% 1%;
+    border: solid 0.001mm rgb(185, 185, 185);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .keyboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .orange {
+    background-color: #f5913e;
+  }
+  
+  .gray {
+    background-color: #e0e0e0;
+  }
+  
+  #zero {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
