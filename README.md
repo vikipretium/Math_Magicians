@@ -2,6 +2,8 @@
 
 # Math Magician
 
+![](./screenshot.png)
+
 > A single page app build using react
 
 
