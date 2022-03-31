@@ -9,7 +9,7 @@ const Calculator = () => {
     setState((state) => calculate(state, e.target.textContent));
   };
   return (
-    <div>
+    <div className="layout">
       <h3>Lets do some math!</h3>
       <div className="calc-structure">
         <div className="screen">
