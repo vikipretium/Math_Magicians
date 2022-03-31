@@ -2,7 +2,7 @@
 
 # Math Magician
 
-![](./screenshot.png)
+![](./src/images/ss1.png)
 
 > A single page app build using react
 
