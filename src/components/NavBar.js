@@ -7,8 +7,10 @@ export default function NavBar() {
             <h1>
                 Math Magicians
             </h1>
-            <ul>
-                <li><link to = "/" ><span>Home</span></link></li>
+            <ul className="navUl">
+                <li className="navli"><Link to = "/" ><span>Home</span></Link></li>
+                <li className="navli"><Link to = "/Calculator" ><span>Calculator</span></Link></li>
+                <li className="navli"><Link to = "/Quote" ><span>Quote</span></Link></li>
             </ul>
         </nav>
     )

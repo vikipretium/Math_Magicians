@@ -3,7 +3,7 @@ import { Routes,Route } from 'react-router-dom';
 import Home from './components/Home';
 import Calculator from './components/Calculator';
 import Quote from './components/Quote';
-
+import NavBar from './components/NavBar';
 <Route path="/Calculator" element={<Calculator />} />
 
 export default class App extends React.Component {
@@ -15,6 +15,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Calculator" element={<Calculator />} />
