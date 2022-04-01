@@ -41,6 +41,17 @@ npm start
 - Twitter: [@vikipretium](https://twitter.com/vikipretium)
 - LinkedIn: [vikipretium](https://linkedin.com/in/vikipretium)
 
+👤 **PASCAL KABIKA MP.**
+
+- GitHub: [KABIKA681](https://github.com/KABIKA681?tab=overview&from=2021-12-01&to=2021-12-31)
+- [LinkedIn](https://www.linkedin.com/in/pascal-kabika-443061220/)
+
+👤 **Faith Usor**
+
+- GitHub: [@usorfaitheloho](https://github.com/usorfaitheloho)
+- Twitter: [@usorfaitheloho](https://twitter.com/faith_usor 16)
+- LinkedIn: [usorfaitheloho](https://linkedin.com/in/faith_usor/)
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
