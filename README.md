@@ -5,7 +5,9 @@
 ![](./src/images/ss1.png)
 
 > A single page app build using react
-
+## Live Links
+- [Netlify](https://stately-medovik-82eb6c.netlify.app/)
+- [Heroku](https://magicalculator.herokuapp.com/)
 
 Additional description about the project and its features.
 
