@@ -1,4 +1,4 @@
-@import url("https://fonts.cdnfonts.com/css/harry-potter");
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
 
 * {
   margin: 0;
@@ -12,12 +12,12 @@
 }
 
 body {
-  background-image: url("/src/images/magic.jpg");
+  background-image: url('/src/images/magic.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   background-color: white;
-  font-family: "Harry Potter", sans-serif;
+  font-family: 'Harry Potter', sans-serif;
   backdrop-filter: brightness(60%);
 }
 
@@ -36,7 +36,8 @@ body {
   margin: 5% 5%;
   width: 450px;
   height: auto;
-  box-shadow: 0 0 60px 30px rgb(144, 144, 144),
+  box-shadow:
+    0 0 60px 30px rgb(144, 144, 144),
     0 0 100px 60px rgba(255, 187, 0, 0.411),
     0 0 100px 90px rgba(0, 255, 255, 0.294);
 }
@@ -48,9 +49,15 @@ body {
   text-align: right;
   font-size: 25px;
   overflow: auto;
-  text-shadow: 0 0 7px rgb(223, 223, 223), 0 0 10px rgb(221, 221, 221),
-    0 0 21px rgb(218, 218, 218), 0 0 42px var(--orange), 0 0 82px var(--orange),
-    0 0 92px var(--orange), 0 0 102px var(--orange), 0 0 151px var(--orange);
+  text-shadow:
+    0 0 7px rgb(223, 223, 223),
+    0 0 10px rgb(221, 221, 221),
+    0 0 21px rgb(218, 218, 218),
+    0 0 42px var(--orange),
+    0 0 82px var(--orange),
+    0 0 92px var(--orange),
+    0 0 102px var(--orange),
+    0 0 151px var(--orange);
 }
 
 button {
@@ -59,19 +66,31 @@ button {
   border: solid 0.001mm rgb(185, 185, 185);
   font-weight: bold;
   cursor: pointer;
-  font-family: "Harry Potter", sans-serif;
+  font-family: 'Harry Potter', sans-serif;
   font-size: 20px;
   color: #fff;
-  text-shadow: 0 0 7px rgb(200, 200, 200), 0 0 10px rgb(214, 214, 214),
-    0 0 21px rgb(221, 221, 221), 0 0 42px var(--blue), 0 0 82px var(--blue),
-    0 0 92px var(--blue), 0 0 102px var(--blue), 0 0 151px var(--blue);
+  text-shadow:
+    0 0 7px rgb(200, 200, 200),
+    0 0 10px rgb(214, 214, 214),
+    0 0 21px rgb(221, 221, 221),
+    0 0 42px var(--blue),
+    0 0 82px var(--blue),
+    0 0 92px var(--blue),
+    0 0 102px var(--blue),
+    0 0 151px var(--blue);
 }
 
 button:hover {
   color: #ffae00;
-  text-shadow: 0 0 7px rgb(161, 161, 161), 0 0 10px rgb(141, 141, 141),
-    0 0 21px rgb(146, 146, 146), 0 0 42px var(--orange), 0 0 82px var(--orange),
-    0 0 92px var(--orange), 0 0 102px var(--orange), 0 0 151px var(--orange);
+  text-shadow:
+    0 0 7px rgb(161, 161, 161),
+    0 0 10px rgb(141, 141, 141),
+    0 0 21px rgb(146, 146, 146),
+    0 0 42px var(--orange),
+    0 0 82px var(--orange),
+    0 0 92px var(--orange),
+    0 0 102px var(--orange),
+    0 0 151px var(--orange);
 }
 
 .keyboard {
@@ -100,7 +119,7 @@ nav {
   height: 70px;
   padding: 0 3%;
   border-bottom: solid 0.5px gray;
-  font-family: "Harry Potter", sans-serif;
+  font-family: 'Harry Potter', sans-serif;
   font-size: larger;
 }
 
@@ -113,16 +132,28 @@ span,
 nav h1,
 .navUl span {
   color: #fff;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px var(--blue),
-    0 0 82px var(--blue), 0 0 92px var(--blue), 0 0 102px var(--blue),
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px var(--blue),
+    0 0 82px var(--blue),
+    0 0 92px var(--blue),
+    0 0 102px var(--blue),
     0 0 151px var(--blue);
 }
 
 .navUl span:hover {
   color: #f00;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
-    0 0 42px var(--yellow), 0 0 82px var(--yellow), 0 0 92px var(--yellow),
-    0 0 102px var(--yellow), 0 0 151px var(--yellow);
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px var(--yellow),
+    0 0 82px var(--yellow),
+    0 0 92px var(--yellow),
+    0 0 102px var(--yellow),
+    0 0 151px var(--yellow);
 }
 
 .navUl {
@@ -161,9 +192,15 @@ p {
 .layout h3 {
   font-size: 48px;
   color: #fff;
-  text-shadow: 0 0 7px rgb(161, 161, 161), 0 0 10px rgb(141, 141, 141),
-    0 0 21px rgb(146, 146, 146), 0 0 42px var(--orange), 0 0 82px var(--orange),
-    0 0 92px var(--orange), 0 0 102px var(--orange), 0 0 151px var(--orange);
+  text-shadow:
+    0 0 7px rgb(161, 161, 161),
+    0 0 10px rgb(141, 141, 141),
+    0 0 21px rgb(146, 146, 146),
+    0 0 42px var(--orange),
+    0 0 82px var(--orange),
+    0 0 92px var(--orange),
+    0 0 102px var(--orange),
+    0 0 151px var(--orange);
   text-align: center;
 }
 
