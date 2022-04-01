@@ -1,55 +1,55 @@
-import calculate from "../logic/calculate";
+import calculate from '../logic/calculate';
 
-describe("operate function check", () => {
-  test("AC", () => {
+describe('operate function check', () => {
+  test('AC', () => {
     const obj = {
-      total: "50",
-      next: "2",
-      operation: "+",
+      total: '50',
+      next: '2',
+      operation: '+',
     };
-    const state = calculate(obj, "AC");
+    const state = calculate(obj, 'AC');
     expect(state.total).toBe(0);
   });
 
-  test("number", () => {
+  test('number', () => {
     const obj = {
-      total: "0",
+      total: '0',
       next: null,
-      operation: "+",
+      operation: '+',
     };
-    const state = calculate(obj, "1");
-    expect(state.next).toBe("1");
+    const state = calculate(obj, '1');
+    expect(state.next).toBe('1');
   });
 
-  test("dot", () => {
+  test('dot', () => {
     const obj = {
-      total: "3",
+      total: '3',
       next: null,
       operation: null,
     };
-    const state = calculate(obj, ".");
-    expect(state.total).toBe("3.");
+    const state = calculate(obj, '.');
+    expect(state.total).toBe('3.');
   });
 
-  test("equal", () => {
+  test('equal', () => {
     const obj = {
-      total: "50",
-      next: "2",
-      operation: "+",
+      total: '50',
+      next: '2',
+      operation: '+',
     };
 
-    const state = calculate(obj, "=");
+    const state = calculate(obj, '=');
     expect(state.next).toBe(null);
   });
 
-  test("+/-", () => {
+  test('+/-', () => {
     const obj = {
-      total: "50",
+      total: '50',
       next: null,
       operation: null,
     };
 
-    const state = calculate(obj, "+/-");
-    expect(state.total).toBe("-50");
+    const state = calculate(obj, '+/-');
+    expect(state.total).toBe('-50');
   });
 });

@@ -7,4 +7,4 @@ it('Home renders correctly', () => {
   expect(tree).toMatchSnapshot();
 });
 
-// expect(Element).toBeInTheDocument(); 
+// expect(Element).toBeInTheDocument();
